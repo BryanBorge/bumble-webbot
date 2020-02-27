@@ -13,7 +13,7 @@ Download bot.py file and put it anywhere you'd like
   
   bot = BumbleBot()
   
- A browser window will pop up and you can begin to use the bots commands.
+ A browser window will pop up and you can begin using the bot through the command line
   
   bot.Like() - Swipes right once
   
