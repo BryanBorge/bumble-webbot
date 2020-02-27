@@ -16,5 +16,7 @@ Download bot.py file and put it anywhere you'd like
  A browser window will pop up and you can begin to use the bots commands.
   
   bot.Like() - Swipes right once
+  
   bot.Pass() - Swipes left once
+  
   bot.LikeLoop() - 3/2 chance to swipe right on each person
