@@ -7,7 +7,7 @@ Download bot.py file and put it anywhere you'd like
  # Usage
  Run the bot.py with python3 using the command line interface by typing: 
  
- python3 -i bot.py
+ python3 -i bot.py -n *Phone number* -p *Password*
 
  When presented with ">>>" for input, you can initiliaze the bumble bot by typing:
   
