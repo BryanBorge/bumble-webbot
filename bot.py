@@ -4,10 +4,10 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-n', action='store',
-                    dest='Number',
+                    dest='Number', required=True,
                     help='Phone number')
 parser.add_argument('-p', action='store',
-                    dest='Password',
+                    dest='Password', required=True,
                     help='Password')
 
 results = parser.parse_args()
