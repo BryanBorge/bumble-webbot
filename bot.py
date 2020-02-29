@@ -14,7 +14,6 @@ results = parser.parse_args()
 
 class BumbleBot:
     def __init__(self):
-        #### REMOVE PHONE AND PASSWORD ####
         self.phoneNumber = results.Number
         self.password = results.Password
         self.web = Browser()
