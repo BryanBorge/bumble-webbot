@@ -1,11 +1,21 @@
 from webbot import Browser
 import random
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('-n', action='store',
+                    dest='Number', required=True,
+                    help='Phone number')
+parser.add_argument('-p', action='store',
+                    dest='Password', required=True,
+                    help='Password')
+
+results = parser.parse_args()
 
 class BumbleBot:
     def __init__(self):
-        #### REMOVE PHONE AND PASSWORD ####
-        self.phoneNumber = ''
-        self.password = ''
+        self.phoneNumber = results.Number
+        self.password = results.Password
         self.web = Browser()
         self.Login()
 
